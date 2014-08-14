@@ -78,7 +78,7 @@ For detailed instructions and troubleshooting, see the [README in the browser di
 
 **NOTE:** If you are on Windows, you must use a Windows command shell, not Cygwin.
 
-1. Go to the browser subdirectory of the project:  
+1. Go to the browser subdirectory of the project:
         ```bash
         cd browser
         ```
