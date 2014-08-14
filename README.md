@@ -82,15 +82,16 @@ For detailed instructions and troubleshooting, see the [README in the browser di
         ```
         cd browser
         ```
-1. Install the browser application.  
+2. Install the browser application.  
         ```
         npm install
+        
         bower install
         ```
-2. Run the following command to build the web application, run its unit tests, and bring up the required execution environment:  
+3. Run the following command to build the web application, run its unit tests, and bring up the required execution environment:  
         ```
         gulp run
-        ````
+        ```
 
 When the setup successfully completes, you should see information about the available web servers running the application. The `gulp run` command does not return.
 
