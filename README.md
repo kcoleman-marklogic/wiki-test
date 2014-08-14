@@ -79,17 +79,16 @@ For detailed instructions and troubleshooting, see the [README in the browser di
 **NOTE:** If you are on Windows, you must use a Windows command shell, not Cygwin.
 
 1. Go to the browser subdirectory of the project:  
-        ```
+        ```bash
         cd browser
         ```
 2. Install the browser application.  
-        ```
+        ```bash
         npm install
-        
         bower install
         ```
 3. Run the following command to build the web application, run its unit tests, and bring up the required execution environment:  
-        ```
+        ```bash
         gulp run
         ```
 
