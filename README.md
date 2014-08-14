@@ -32,7 +32,7 @@ Follow this procedure to set up samplestack in your environment.
 1. Install MarkLogic 8 Early Access. See http://ea.marklogic.com/download.
 2. Start MarkLogic. For details, see the [MarkLogic Installation Guide](http://docs.marklogic.com/guide/installation/procedures#id_92457).
 3. Clone this repository. For example, run the following command:  
-        ```bash
+        ```
         git clone https://github.com/marklogic/marklogic-samplestack
         ```
 4. [Set up the middle and database tiers](#setting-up-the-middle-and-database-tiers).
@@ -79,16 +79,16 @@ For detailed instructions and troubleshooting, see the [README in the browser di
 **NOTE:** If you are on Windows, you must use a Windows command shell, not Cygwin.
 
 1. Go to the browser subdirectory of the project:  
-        ```bash
+        ```
         cd browser
         ```
 1. Install the browser application.  
-        ```bash
+        ```
         npm install
         bower install
         ```
 2. Run the following command to build the web application, run its unit tests, and bring up the required execution environment:  
-        ```bash
+        ```
         gulp run
         ````
 
@@ -100,7 +100,7 @@ Once you have the database, appserver, and browser tiers of the application conf
 `http://localhost:3000/`
 
 To restart the middle tier App Server and browser tier web servers in the future, run the following commands:
-```base
+```bash
 cd appserver/java-spring
 ./gradlew bootrun
 cd ../../browser
