@@ -1,10 +1,8 @@
 This is a list:
 1. one
-        ```bash
-        gulp run
-        ```
 2. two
 3. three
+1. four
 
 this is not a list
 ```bash
